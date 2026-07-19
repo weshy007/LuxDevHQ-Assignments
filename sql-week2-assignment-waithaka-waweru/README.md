@@ -62,7 +62,7 @@ sql-week2-assignment-waithaka/
 
 ## Article Link
 
-<!-- [Your Published Article Here] -->
+[Link](https://dev.to/itsweshy/sql-basics-explained-ddl-dml-filtering-and-case-when-348i) to the published article
 
 ## Author
 
