@@ -5,7 +5,7 @@ SET search_path TO greenwood_academy;
 
 --Q2. Create the students table with the following columns: 
 CREATE TABLE students (
-    student_id INT PRIMARY KEY,
+    student_id SERIAL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     gender VARCHAR(1),
@@ -16,7 +16,7 @@ CREATE TABLE students (
 
 -- Q3. Create the subjects table
 CREATE TABLE subjects (
-    subject_id INT PRIMARY KEY,
+    subject_id SERIAL PRIMARY KEY,
     subject_name VARCHAR(100) NOT NULL UNIQUE,
     department VARCHAR(50),
     teacher_name VARCHAR(100),
@@ -26,7 +26,7 @@ CREATE TABLE subjects (
 -- Q4. Create the exam_results table
 
 CREATE TABLE exam_results (
-    result_id INT PRIMARY KEY,
+    result_id SERIAL PRIMARY KEY,
     student_id INT NOT NULL,
     subject_id INT NOT NULL,
     marks INT NOT NULL,
